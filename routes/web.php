@@ -17,4 +17,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+
+Route::get('corona', 'CovidController@chart');
 Route::get('/', 'InfoController@index');
